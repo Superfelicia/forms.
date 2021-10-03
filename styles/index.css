@@ -1,3 +1,29 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
 .card-contact {
     display: flex;
     margin-left: 20px;
@@ -9,18 +35,22 @@
     flex-direction: column;
 }
 
+
+
 .label {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.1em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .btn {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    background-color: #A0D468;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .placeholder {
@@ -33,6 +63,31 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin-bottom: 15px;
+}
+
+.checkbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    border-color: #8CC152;
+    box-shadow: #AAB2BD;
+    color: #EC87C0;
+}
+
+.placeholder:hover, .select:hover {
+    border-color:  #FFC038;
+}
+
+.placeholder, .select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.message:hover {
+    border-color: #92DE8B;
 }
 
 .checkbox {
